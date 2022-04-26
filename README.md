@@ -6,8 +6,10 @@
 
 **server.c** 从摄像头驱动提取MJPG视频帧并转码成YUV视频帧，同时发送给ndnrtc的producer进行VP9编码并切割打包成Data。
 
-#  client.c, 基于V4L2的视频接收客户端程序
+# client.c, 基于V4L2的视频接收客户端程序
 
 **client.c** 从ndnrtc的consumer(从producer接收并解码成YUV)提取出YUV视频帧，并转码成MJPG，输出给VLC串流播放设备。
 
 **NDN-RTC Real-Time Videoconferencing over Named Data Networking.pdf**为原始参考论文
+
+**NDN-RTC搭建与调试**为搭建文档
