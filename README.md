@@ -10,7 +10,7 @@ NDN-RTC is a videoconferencing library that employs Named Data Networking (NDN),
 
 # ndnrtc.zip, 移植到UBUNTU20.04上的NDN-RTC库代码
 
-**ndnrtc.zip** 为NDN-RTC库代码是官网已存档的代码，存在很多BUG, 本网版本已经调试通过，并可用于基于VP9的WEB-RTC的NDN视频直播。
+**ndnrtc.zip** 为代码，可用于基于VP9的WebRTC的NDN视频直播。
 
 # server.c, 基于V4L2的视频提取服务器程序
 
