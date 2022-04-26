@@ -12,4 +12,4 @@
 
 **NDN-RTC Real-Time Videoconferencing over Named Data Networking.pdf**为原始参考论文
 
-**NDN-RTC搭建与调试**为搭建文档
+**NDN-RTC搭建与调试.doc**为搭建文档
