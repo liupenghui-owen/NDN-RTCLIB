@@ -1,7 +1,7 @@
 # NDN-RTC是一个NDN网络环境下的实时视频通信库。
 基本原理：视频源将原始图像VP9编码后进行切片，通过NDN流控方式传输到接收端后，组合成VP9视频帧，再解码成原始图。语音通过WebRTC接口编码成RTC/RTCP包，再通过NDN直接传输到接收端后，通过WebRTC接口解码并播放。
 
-主要技术：NDN、OpenFEC、WebRTC和VP9。
+主要技术：NDN(NDNCPP)、OpenFEC、WebRTC和VP9。
 
 研究目的：研究ND网络环境下的安全视频聊天，及网络媒体流交互控制。
 
